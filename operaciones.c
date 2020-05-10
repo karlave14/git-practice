@@ -15,6 +15,9 @@ float maximo=0;
 float minimo=0;
 float average=0;
 float numeri;
+char nombre[100];
+printf("Ingresa el nombre del alumno\n");
+scanf("%c",nombre);
 printf("Ingresa un numero:\n");
 scanf("%f", numero);
 for(i = 1; i < numero; i++){
