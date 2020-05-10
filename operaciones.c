@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(){
+int main(int argc, char** argv){
 
 //Calcular  promedio, mediana y media
 
@@ -14,25 +14,24 @@ float suma=0;
 float maximo=0;
 float minimo=0;
 float average=0;
-float numeri;
-char nombre[100];
-printf("Ingresa el nombre del alumno\n");
-scanf("%c",nombre);
-printf("Ingresa un numero:\n");
-scanf("%f", numero);
-for(i = 1; i < numero; i++){
+for(i = 1; i < argc; i++){
+float num = atof(argv[i]);
 calf++;
-suma = suma + numero;
-if (i == 1){
-        minimo = numero;
-        maximo = numero;
-                                                                                                                                                                                                                           }else{                                                                                                                                                                                                             if(num > max){                                                                                                                                                                                                             max = num;
-                }
-        if(numero < minimo){
-                minimo = numero;
-                }
-        }
-}
+suma = suma + num;
+
+if( i == 1){
+			min = num;
+			max = num;
+		} else{
+			if(num > max) {
+			max = num;
+			}
+			if(num < min){
+			min = num;
+			}
+		}
+	}
+
         ave = sum/calf;
         printf("Average is: %.2f\n", average);
         printf("Maximun is: %.2f\n", maximo);
