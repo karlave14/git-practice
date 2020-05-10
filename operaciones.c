@@ -9,31 +9,31 @@ int main(){
 //pedir numero
 
 int i;
-int calf=0;
-float sum=0;
-float max=0;
-float min=0;
-float ave =0;
-float num;
+int calficaciones=0;
+float suma=0;
+float maximo=0;
+float minimo=0;
+float average=0;
+float numeri;
 printf("Ingresa un numero:\n");
-scanf("%f", num);
-for(i = 1; i < num; i++){
+scanf("%f", numero);
+for(i = 1; i < numero; i++){
 calf++;
-sum = sum + num;
+suma = suma + numero;
 if (i == 1){
-        min = num;
-        max = num;
+        minimo = numero;
+        maximo = numero;
                                                                                                                                                                                                                            }else{                                                                                                                                                                                                             if(num > max){                                                                                                                                                                                                             max = num;
                 }
-        if(num < min){
-                min = num;
+        if(numero < minimo){
+                minimo = numero;
                 }
         }
 }
         ave = sum/calf;
-        printf("Average is: %.2f\n", ave);
-        printf("Maximun is: %.2f\n", max);
-        printf("Minimun is: %.2f\n", min);
+        printf("Average is: %.2f\n", average);
+        printf("Maximun is: %.2f\n", maximo);
+        printf("Minimun is: %.2f\n", minimo);
 
 return 0;
 }
