@@ -1,0 +1,88 @@
+ 1769  mkdir ram
+ 1770  cd ram
+ 1771  nano operaciones.c
+ 1772  git init 
+ 1773  git remote origin master https://github.com/karlave14/ExerciseTerminal.git
+ 1774  git commit -m "coregit variables"
+ 1775  git commit 
+ 1776  git add --all
+ 1777  git commit -m "corregir scanf"
+ 1778  git push origin master
+ 1779  git init 
+ 1780  git remote origin master
+ 1781  git add --all 
+ 1782  git commit -m "corregir scanf"
+ 1783  git push origin master
+ 1784  git remote origin master https://github.com/karlave14/ExerciseTerminal.git
+ 1785  git add --all 
+ 1786  gir commit -m "corregir scanf"
+ 1787  git commit -m "corregir scanf"
+ 1788  git push origin master
+ 1789  git init 
+ 1790  git remote origin master https://github.com/karlave14/git-practice.git
+ 1791  git add --all 
+ 1792  git commit -m "cambiar scanf"
+ 1793  git push orgin master
+ 1794  git init
+ 1795  git add --all
+ 1796  git commit -m "Cambiar scanf"
+ 1797  git push origin master
+ 1798  git init 
+ 1799  git add --all 
+ 1800  git commit -m "first commit"
+ 1801  git remote add orgin https://github.com/karlave14/git-practice.git
+ 1802  git push origin master
+ 1803  clear
+ 1804  git init 
+ 1805  git remote add origin https://github.com/karlave14/git-practice.git
+ 1806  git push origin master 
+ 1807  git branch
+ 1808  git brach variables
+ 1809  git branch 
+ 1810  git branch variables 
+ 1811  git branch
+ 1812  git checkout variables
+ 1813  git branch
+ 1814  git long
+ 1815  git log
+ 1816  nano operaciones.c
+ 1817  git add --all 
+ 1818  git commit -m "se cambio las variables"
+ 1819  git log
+ 1820  git branch 
+ 1821  git checkout master
+ 1822  git branch 
+ 1823  git log
+ 1824  git checkout variables
+ 1825  git branch
+ 1826  nano operaciones.c
+ 1827  git add --all
+ 1828  git commit -m "se le pide el nombre"
+ 1829  git checkout master
+ 1830  nano operaciones.c
+ 1831  git merge variables
+ 1832  git branch
+ 1833  git log
+ 1834  nano operaciones.c
+ 1835  git brach
+ 1836  git branch
+ 1837  git branch argumentos
+ 1838  git branch
+ 1839  git checkout argumentos
+ 1840  git branch
+ 1841  nano operaciones.c 
+ 1842  git add --all 
+ 1843  git commit -m "Se pide el numero con argumentos"
+ 1844  git log
+ 1845  git branch master
+ 1846  git branch
+ 1847  git checkout master
+ 1848  git branch
+ 1849  git branch -d variables
+ 1850  git branch
+ 1851  git merge argumentos
+ 1852  git branch
+ 1853  git log
+ 1854  nano operaciones.c
+ 1855  nano gitlog20200510.txt
+ 1856  history |tail -n 150 > gitlog20200510.txt
